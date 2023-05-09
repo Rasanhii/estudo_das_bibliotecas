@@ -7,8 +7,9 @@ Essa biblioteca é open source (código aberto) e pode ser usada para análise d
 
 import cv2
 
+
 # carrega a imagem em uma variável
-imagem = cv2.imread('/estudo_das_bibliotecas/designe.jpg')
+imagem = cv2.imread('/home/ec2-user/environment/estudo_das_bibliotecas/designe.jpg')
 
 # verifica se a imagem foi carregada corretamente
 if imagem is None:
